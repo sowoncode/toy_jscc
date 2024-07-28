@@ -10,4 +10,10 @@ public class JaehoonHello {
     public String hi(){
         return "Hello Jaehoon!!!!";
     }
+
+    @GetMapping("/hisowon")
+    public String hisowon(){
+        return "Hello Sowon!!!!!!!";
+    }
+
 }
